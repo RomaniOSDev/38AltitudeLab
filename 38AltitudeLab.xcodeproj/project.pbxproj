@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74FDC4A72F05725D00304B0C /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC47E2F05725D00304B0C /* Color+Hex.swift */; };
+		74FDC4A82F05725D00304B0C /* AcclimatizationPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC4802F05725D00304B0C /* AcclimatizationPlan.swift */; };
+		74FDC4A92F05725D00304B0C /* AltitudeReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC4812F05725D00304B0C /* AltitudeReading.swift */; };
+		74FDC4AA2F05725D00304B0C /* AMSWarning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC4822F05725D00304B0C /* AMSWarning.swift */; };
+		74FDC4AB2F05725D00304B0C /* HypoxicTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC4832F05725D00304B0C /* HypoxicTraining.swift */; };
+		74FDC4AC2F05725D00304B0C /* SymptomCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC4842F05725D00304B0C /* SymptomCheck.swift */; };
+		74FDC4AD2F05725D00304B0C /* AcclimatizationCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC4862F05725D00304B0C /* AcclimatizationCalculator.swift */; };
+		74FDC4AE2F05725D00304B0C /* AMSWarningSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC4872F05725D00304B0C /* AMSWarningSystem.swift */; };
+		74FDC4AF2F05725D00304B0C /* AcclimatizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC4892F05725D00304B0C /* AcclimatizationViewModel.swift */; };
+		74FDC4B02F05725D00304B0C /* AltitudeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC48A2F05725D00304B0C /* AltitudeViewModel.swift */; };
+		74FDC4B12F05725D00304B0C /* SymptomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC48B2F05725D00304B0C /* SymptomViewModel.swift */; };
+		74FDC4B22F05725D00304B0C /* TrainingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC48C2F05725D00304B0C /* TrainingViewModel.swift */; };
+		74FDC4B32F05725D00304B0C /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC48E2F05725D00304B0C /* CheckLink.swift */; };
+		74FDC4B42F05725D00304B0C /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC48F2F05725D00304B0C /* InternetViewController.swift */; };
+		74FDC4B52F05725D00304B0C /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC4902F05725D00304B0C /* LoaderViewController.swift */; };
+		74FDC4B62F05725D00304B0C /* AcclimatizationPlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC4922F05725D00304B0C /* AcclimatizationPlannerView.swift */; };
+		74FDC4B72F05725D00304B0C /* AltitudeMonitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC4932F05725D00304B0C /* AltitudeMonitorView.swift */; };
+		74FDC4B82F05725D00304B0C /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC4942F05725D00304B0C /* AnalyticsView.swift */; };
+		74FDC4B92F05725D00304B0C /* HypoxicTrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC4952F05725D00304B0C /* HypoxicTrainingView.swift */; };
+		74FDC4BA2F05725D00304B0C /* MainDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC4962F05725D00304B0C /* MainDashboardView.swift */; };
+		74FDC4BB2F05725D00304B0C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC4972F05725D00304B0C /* OnboardingView.swift */; };
+		74FDC4BC2F05725D00304B0C /* SafetyDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC4982F05725D00304B0C /* SafetyDashboardView.swift */; };
+		74FDC4BD2F05725D00304B0C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC4992F05725D00304B0C /* SettingsView.swift */; };
+		74FDC4BE2F05725D00304B0C /* SymptomTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC49A2F05725D00304B0C /* SymptomTrackerView.swift */; };
+		74FDC4BF2F05725D00304B0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC49C2F05725D00304B0C /* AppDelegate.swift */; };
+		74FDC4C02F05725D00304B0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC49E2F05725D00304B0C /* ContentView.swift */; };
+		74FDC4C12F05725D00304B0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC4A42F05725D00304B0C /* SceneDelegate.swift */; };
+		74FDC4C22F05725D00304B0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC4A52F05725D00304B0C /* ViewController.swift */; };
+		74FDC4C32F05725D00304B0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74FDC49D2F05725D00304B0C /* Assets.xcassets */; };
+		74FDC4C52F05725D00304B0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74FDC4A12F05725D00304B0C /* LaunchScreen.storyboard */; };
+		74FDC4C62F05725D00304B0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74FDC4A32F05725D00304B0C /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		519A4D3CAA054CF14F62DAA3 /* Pods-38AltitudeLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-38AltitudeLab.release.xcconfig"; path = "Target Support Files/Pods-38AltitudeLab/Pods-38AltitudeLab.release.xcconfig"; sourceTree = "<group>"; };
+		74915C132F029C0400E85B00 /* 38AltitudeLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 38AltitudeLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74FDC47E2F05725D00304B0C /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		74FDC4802F05725D00304B0C /* AcclimatizationPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcclimatizationPlan.swift; sourceTree = "<group>"; };
+		74FDC4812F05725D00304B0C /* AltitudeReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltitudeReading.swift; sourceTree = "<group>"; };
+		74FDC4822F05725D00304B0C /* AMSWarning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSWarning.swift; sourceTree = "<group>"; };
+		74FDC4832F05725D00304B0C /* HypoxicTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypoxicTraining.swift; sourceTree = "<group>"; };
+		74FDC4842F05725D00304B0C /* SymptomCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomCheck.swift; sourceTree = "<group>"; };
+		74FDC4862F05725D00304B0C /* AcclimatizationCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcclimatizationCalculator.swift; sourceTree = "<group>"; };
+		74FDC4872F05725D00304B0C /* AMSWarningSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMSWarningSystem.swift; sourceTree = "<group>"; };
+		74FDC4892F05725D00304B0C /* AcclimatizationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcclimatizationViewModel.swift; sourceTree = "<group>"; };
+		74FDC48A2F05725D00304B0C /* AltitudeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltitudeViewModel.swift; sourceTree = "<group>"; };
+		74FDC48B2F05725D00304B0C /* SymptomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomViewModel.swift; sourceTree = "<group>"; };
+		74FDC48C2F05725D00304B0C /* TrainingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewModel.swift; sourceTree = "<group>"; };
+		74FDC48E2F05725D00304B0C /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		74FDC48F2F05725D00304B0C /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		74FDC4902F05725D00304B0C /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		74FDC4922F05725D00304B0C /* AcclimatizationPlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcclimatizationPlannerView.swift; sourceTree = "<group>"; };
+		74FDC4932F05725D00304B0C /* AltitudeMonitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltitudeMonitorView.swift; sourceTree = "<group>"; };
+		74FDC4942F05725D00304B0C /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		74FDC4952F05725D00304B0C /* HypoxicTrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypoxicTrainingView.swift; sourceTree = "<group>"; };
+		74FDC4962F05725D00304B0C /* MainDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDashboardView.swift; sourceTree = "<group>"; };
+		74FDC4972F05725D00304B0C /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		74FDC4982F05725D00304B0C /* SafetyDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyDashboardView.swift; sourceTree = "<group>"; };
+		74FDC4992F05725D00304B0C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		74FDC49A2F05725D00304B0C /* SymptomTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomTrackerView.swift; sourceTree = "<group>"; };
+		74FDC49C2F05725D00304B0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74FDC49D2F05725D00304B0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74FDC49E2F05725D00304B0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74FDC49F2F05725D00304B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74FDC4A02F05725D00304B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74FDC4A22F05725D00304B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74FDC4A42F05725D00304B0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74FDC4A52F05725D00304B0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76DC82AF2E0050F3059A633F /* Pods_38AltitudeLab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_38AltitudeLab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EED8F7B9560391E16BA1025 /* Pods-38AltitudeLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-38AltitudeLab.debug.xcconfig"; path = "Target Support Files/Pods-38AltitudeLab/Pods-38AltitudeLab.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74915C102F029C0400E85B00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DC330C73A8CEFB81D6CFF50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EED8F7B9560391E16BA1025 /* Pods-38AltitudeLab.debug.xcconfig */,
+				519A4D3CAA054CF14F62DAA3 /* Pods-38AltitudeLab.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		74915C0A2F029C0400E85B00 = {
+			isa = PBXGroup;
+			children = (
+				74FDC4A62F05725D00304B0C /* 38AltitudeLab */,
+				74915C142F029C0400E85B00 /* Products */,
+				4DC330C73A8CEFB81D6CFF50 /* Pods */,
+				9360C24645C62A0430C78CC6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74915C142F029C0400E85B00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74915C132F029C0400E85B00 /* 38AltitudeLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74FDC47F2F05725D00304B0C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				74FDC47E2F05725D00304B0C /* Color+Hex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		74FDC4852F05725D00304B0C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74FDC4802F05725D00304B0C /* AcclimatizationPlan.swift */,
+				74FDC4812F05725D00304B0C /* AltitudeReading.swift */,
+				74FDC4822F05725D00304B0C /* AMSWarning.swift */,
+				74FDC4832F05725D00304B0C /* HypoxicTraining.swift */,
+				74FDC4842F05725D00304B0C /* SymptomCheck.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74FDC4882F05725D00304B0C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				74FDC4862F05725D00304B0C /* AcclimatizationCalculator.swift */,
+				74FDC4872F05725D00304B0C /* AMSWarningSystem.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		74FDC48D2F05725D00304B0C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				74FDC4892F05725D00304B0C /* AcclimatizationViewModel.swift */,
+				74FDC48A2F05725D00304B0C /* AltitudeViewModel.swift */,
+				74FDC48B2F05725D00304B0C /* SymptomViewModel.swift */,
+				74FDC48C2F05725D00304B0C /* TrainingViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		74FDC4912F05725D00304B0C /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				74FDC48E2F05725D00304B0C /* CheckLink.swift */,
+				74FDC48F2F05725D00304B0C /* InternetViewController.swift */,
+				74FDC4902F05725D00304B0C /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		74FDC49B2F05725D00304B0C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74FDC4912F05725D00304B0C /* LoadingView */,
+				74FDC4922F05725D00304B0C /* AcclimatizationPlannerView.swift */,
+				74FDC4932F05725D00304B0C /* AltitudeMonitorView.swift */,
+				74FDC4942F05725D00304B0C /* AnalyticsView.swift */,
+				74FDC4952F05725D00304B0C /* HypoxicTrainingView.swift */,
+				74FDC4962F05725D00304B0C /* MainDashboardView.swift */,
+				74FDC4972F05725D00304B0C /* OnboardingView.swift */,
+				74FDC4982F05725D00304B0C /* SafetyDashboardView.swift */,
+				74FDC4992F05725D00304B0C /* SettingsView.swift */,
+				74FDC49A2F05725D00304B0C /* SymptomTrackerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74FDC4A62F05725D00304B0C /* 38AltitudeLab */ = {
+			isa = PBXGroup;
+			children = (
+				74FDC47F2F05725D00304B0C /* Extensions */,
+				74FDC4852F05725D00304B0C /* Models */,
+				74FDC4882F05725D00304B0C /* Utils */,
+				74FDC48D2F05725D00304B0C /* ViewModels */,
+				74FDC49B2F05725D00304B0C /* Views */,
+				74FDC49C2F05725D00304B0C /* AppDelegate.swift */,
+				74FDC49D2F05725D00304B0C /* Assets.xcassets */,
+				74FDC49E2F05725D00304B0C /* ContentView.swift */,
+				74FDC49F2F05725D00304B0C /* Info.plist */,
+				74FDC4A12F05725D00304B0C /* LaunchScreen.storyboard */,
+				74FDC4A32F05725D00304B0C /* Main.storyboard */,
+				74FDC4A42F05725D00304B0C /* SceneDelegate.swift */,
+				74FDC4A52F05725D00304B0C /* ViewController.swift */,
+			);
+			path = 38AltitudeLab;
+			sourceTree = "<group>";
+		};
+		9360C24645C62A0430C78CC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76DC82AF2E0050F3059A633F /* Pods_38AltitudeLab.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74915C122F029C0400E85B00 /* 38AltitudeLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74915C262F029C0500E85B00 /* Build configuration list for PBXNativeTarget "38AltitudeLab" */;
+			buildPhases = (
+				B9351DD376F02A07A27B0704 /* [CP] Check Pods Manifest.lock */,
+				74915C0F2F029C0400E85B00 /* Sources */,
+				74915C102F029C0400E85B00 /* Frameworks */,
+				74915C112F029C0400E85B00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 38AltitudeLab;
+			productName = 38AltitudeLab;
+			productReference = 74915C132F029C0400E85B00 /* 38AltitudeLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74915C0B2F029C0400E85B00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					74915C122F029C0400E85B00 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = 74915C0E2F029C0400E85B00 /* Build configuration list for PBXProject "38AltitudeLab" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74915C0A2F029C0400E85B00;
+			productRefGroup = 74915C142F029C0400E85B00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74915C122F029C0400E85B00 /* 38AltitudeLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74915C112F029C0400E85B00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FDC4C32F05725D00304B0C /* Assets.xcassets in Resources */,
+				74FDC4C52F05725D00304B0C /* LaunchScreen.storyboard in Resources */,
+				74FDC4C62F05725D00304B0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B9351DD376F02A07A27B0704 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-38AltitudeLab-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74915C0F2F029C0400E85B00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FDC4A72F05725D00304B0C /* Color+Hex.swift in Sources */,
+				74FDC4A82F05725D00304B0C /* AcclimatizationPlan.swift in Sources */,
+				74FDC4A92F05725D00304B0C /* AltitudeReading.swift in Sources */,
+				74FDC4AA2F05725D00304B0C /* AMSWarning.swift in Sources */,
+				74FDC4AB2F05725D00304B0C /* HypoxicTraining.swift in Sources */,
+				74FDC4AC2F05725D00304B0C /* SymptomCheck.swift in Sources */,
+				74FDC4AD2F05725D00304B0C /* AcclimatizationCalculator.swift in Sources */,
+				74FDC4AE2F05725D00304B0C /* AMSWarningSystem.swift in Sources */,
+				74FDC4AF2F05725D00304B0C /* AcclimatizationViewModel.swift in Sources */,
+				74FDC4B02F05725D00304B0C /* AltitudeViewModel.swift in Sources */,
+				74FDC4B12F05725D00304B0C /* SymptomViewModel.swift in Sources */,
+				74FDC4B22F05725D00304B0C /* TrainingViewModel.swift in Sources */,
+				74FDC4B32F05725D00304B0C /* CheckLink.swift in Sources */,
+				74FDC4B42F05725D00304B0C /* InternetViewController.swift in Sources */,
+				74FDC4B52F05725D00304B0C /* LoaderViewController.swift in Sources */,
+				74FDC4B62F05725D00304B0C /* AcclimatizationPlannerView.swift in Sources */,
+				74FDC4B72F05725D00304B0C /* AltitudeMonitorView.swift in Sources */,
+				74FDC4B82F05725D00304B0C /* AnalyticsView.swift in Sources */,
+				74FDC4B92F05725D00304B0C /* HypoxicTrainingView.swift in Sources */,
+				74FDC4BA2F05725D00304B0C /* MainDashboardView.swift in Sources */,
+				74FDC4BB2F05725D00304B0C /* OnboardingView.swift in Sources */,
+				74FDC4BC2F05725D00304B0C /* SafetyDashboardView.swift in Sources */,
+				74FDC4BD2F05725D00304B0C /* SettingsView.swift in Sources */,
+				74FDC4BE2F05725D00304B0C /* SymptomTrackerView.swift in Sources */,
+				74FDC4BF2F05725D00304B0C /* AppDelegate.swift in Sources */,
+				74FDC4C02F05725D00304B0C /* ContentView.swift in Sources */,
+				74FDC4C12F05725D00304B0C /* SceneDelegate.swift in Sources */,
+				74FDC4C22F05725D00304B0C /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74FDC4A12F05725D00304B0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74FDC4A02F05725D00304B0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		74FDC4A32F05725D00304B0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74FDC4A22F05725D00304B0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74915C272F029C0500E85B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EED8F7B9560391E16BA1025 /* Pods-38AltitudeLab.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 38AltitudeLab/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Win-Lab Altitude";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dea.w1nl8b6lt9d;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		74915C282F029C0500E85B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 519A4D3CAA054CF14F62DAA3 /* Pods-38AltitudeLab.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 38AltitudeLab/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Win-Lab Altitude";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dea.w1nl8b6lt9d;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		74915C292F029C0500E85B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74915C2A2F029C0500E85B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74915C0E2F029C0400E85B00 /* Build configuration list for PBXProject "38AltitudeLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74915C292F029C0500E85B00 /* Debug */,
+				74915C2A2F029C0500E85B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74915C262F029C0500E85B00 /* Build configuration list for PBXNativeTarget "38AltitudeLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74915C272F029C0500E85B00 /* Debug */,
+				74915C282F029C0500E85B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74915C0B2F029C0400E85B00 /* Project object */;
+}
