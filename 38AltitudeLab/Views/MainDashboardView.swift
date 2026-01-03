@@ -96,21 +96,6 @@ struct MainDashboardView: View {
                     .cornerRadius(16)
                 }
                 
-                // Error Message
-                if let errorMessage = altitudeVM.errorMessage {
-                    HStack {
-                        Image(systemName: "info.circle.fill")
-                            .foregroundColor(Color(hex: "FFD700"))
-                        Text(errorMessage)
-                            .font(.caption)
-                            .foregroundColor(Color(hex: "8A8F98"))
-                    }
-                    .padding()
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .background(Color(hex: "1A2339"))
-                    .cornerRadius(12)
-                }
-                
                 // AMS Warnings
                 if !symptomVM.warnings.isEmpty {
                     VStack(alignment: .leading, spacing: 12) {

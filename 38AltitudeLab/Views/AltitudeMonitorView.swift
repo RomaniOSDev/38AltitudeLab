@@ -70,21 +70,6 @@ struct AltitudeMonitorView: View {
                     .cornerRadius(16)
                 }
                 
-                // Error Message
-                if let errorMessage = viewModel.errorMessage {
-                    HStack {
-                        Image(systemName: "info.circle.fill")
-                            .foregroundColor(Color(hex: "FFD700"))
-                        Text(errorMessage)
-                            .font(.caption)
-                            .foregroundColor(Color(hex: "8A8F98"))
-                    }
-                    .padding()
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .background(Color(hex: "1A2339"))
-                    .cornerRadius(12)
-                }
-                
                 // Statistics
                 VStack(alignment: .leading, spacing: 12) {
                     Text("Statistics")

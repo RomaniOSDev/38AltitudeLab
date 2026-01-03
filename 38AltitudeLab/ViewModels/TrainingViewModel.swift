@@ -86,3 +86,4 @@ class TrainingViewModel: ObservableObject {
 }
 
 
+

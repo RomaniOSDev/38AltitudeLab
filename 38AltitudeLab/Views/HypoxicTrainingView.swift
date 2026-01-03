@@ -183,3 +183,4 @@ struct TrainingHistoryCard: View {
 }
 
 
+

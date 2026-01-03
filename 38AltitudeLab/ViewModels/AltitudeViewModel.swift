@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import CoreMotion
 import Combine
 
 class AltitudeViewModel: ObservableObject {
@@ -15,7 +14,6 @@ class AltitudeViewModel: ObservableObject {
     @Published var isMonitoring: Bool = false
     @Published var errorMessage: String?
     
-    private let altimeter = CMAltimeter()
     private var cancellables = Set<AnyCancellable>()
     private var monitoringTimer: Timer?
     private var simulatedAltitude: Double = 100.0 // For simulated monitoring
@@ -29,49 +27,8 @@ class AltitudeViewModel: ObservableObject {
         isMonitoring = true
         errorMessage = nil
         
-        if CMAltimeter.isRelativeAltitudeAvailable() {
-            // Use real barometer if available
-            altimeter.startRelativeAltitudeUpdates(to: .main) { [weak self] data, error in
-                guard let self = self else { return }
-                
-                if let error = error {
-                    self.errorMessage = error.localizedDescription
-                    self.isMonitoring = false
-                    return
-                }
-                
-                guard let data = data else {
-                    self.errorMessage = "No altitude data received"
-                    self.isMonitoring = false
-                    return
-                }
-                
-                // Convert relative altitude to absolute (approximate)
-                // This is a simplified calculation - in real app you'd use GPS + barometer
-                let altitude = data.relativeAltitude.doubleValue * 1000 // Convert to meters
-                let pressure = data.pressure.doubleValue * 10 // Convert to hPa
-                
-                let reading = AltitudeReading(
-                    altitude: altitude,
-                    pressure: pressure,
-                    timestamp: Date()
-                )
-                
-                self.currentReading = reading
-                self.readings.append(reading)
-                
-                // Keep only last 1000 readings
-                if self.readings.count > 1000 {
-                    self.readings.removeFirst()
-                }
-                
-                self.saveReadings()
-            }
-        } else {
-            // Fallback: simulate altitude data for simulator/devices without barometer
-            errorMessage = "Using simulated altitude data (barometer not available)"
-            startSimulatedMonitoring()
-        }
+        // Use simulated altitude data
+        startSimulatedMonitoring()
     }
     
     private func startSimulatedMonitoring() {
@@ -128,9 +85,6 @@ class AltitudeViewModel: ObservableObject {
     }
     
     func stopMonitoring() {
-        if CMAltimeter.isRelativeAltitudeAvailable() {
-            altimeter.stopRelativeAltitudeUpdates()
-        }
         monitoringTimer?.invalidate()
         monitoringTimer = nil
         isMonitoring = false
@@ -173,4 +127,3 @@ class AltitudeViewModel: ObservableObject {
         // In a real app, load from CoreData or UserDefaults
     }
 }
-
