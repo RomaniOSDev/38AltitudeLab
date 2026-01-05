@@ -82,3 +82,4 @@ class AcclimatizationViewModel: ObservableObject {
 
 
 
+
